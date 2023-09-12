@@ -1,0 +1,83 @@
+body{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin: auto;
+    height: 100vh;
+    width: 800px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.element{
+    margin: auto;
+    margin: 25px 20px;
+    min-height: 50px;
+    background-color: #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.element-checker{
+    width: 60px;
+    height: 50px;
+    background-color: #414040;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.element-checker:hover{
+    background-color: #414040be;
+}
+
+.element-text{
+    color: aliceblue;
+    font-size: 20px;
+    margin: auto;
+    margin-left: 15px;
+}
+
+.add-element{
+    background-color: #414040;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+.add-element-text{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.add-element-input-container{
+    background-color: #414040;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.add-element-input{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    border: 0;
+    outline: none;
+}
+
+.add-element-btn{
+    position: absolute;
+    height: 50px;
+    right: 0;
+}
