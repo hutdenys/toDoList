@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>toDoList</title>
+</head>
+<body>
+    <div class="container">
+        <div class="element">
+            <div class="element-checker"></div>
+            <p class="element-text">to sleep</p>
+        </div>
+
+        <div class="add-element-input-container" style="display: none;">
+            <input class="add-element-input" type="text" placeholder="Your text...">
+            <button class="add-element-btn" onclick="createElementByInput()">Create!</button>
+        </div>
+
+        <div class="add-element" onclick="showInput()">
+            <h1 class="add-element-text">Add Event</h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
